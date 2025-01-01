@@ -1,0 +1,6 @@
+CREATE TABLE `java_cp`.`logins` (
+  `id` INT NOT NULL,
+  `login` VARCHAR(256) NULL,
+  `password` VARCHAR(256) NULL,
+  `role` VARCHAR(256) NULL,
+  PRIMARY KEY (`id`));
